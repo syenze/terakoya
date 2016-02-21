@@ -12,9 +12,6 @@ hooks:
     - location: scripts/install.sh
       timeout: 300
       runas: root
-    - location: scripts/move_files.sh
-      timeout: 300
-      runas: root
   ApplicationStart:
     - location: scripts/httpd_start.sh
       timeout: 300
